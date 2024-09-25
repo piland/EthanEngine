@@ -522,3 +522,151 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/pilan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/pilan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "cmake-build-debug/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "cmake-build-debug/_deps/sfml-src/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yqdpp3"
+      binary: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yqdpp3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yqdpp3'
+        
+        Run Build Command(s): C:/Users/pilan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_4b12f
+        [1/2] C:\\Users\\pilan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe    -o CMakeFiles/cmTC_4b12f.dir/CheckIncludeFile.c.obj -c C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yqdpp3/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\pilan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_4b12f.dir/CheckIncludeFile.c.obj -o cmTC_4b12f.exe -Wl,--out-implib,libcmTC_4b12f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/pilan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/pilan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "cmake-build-debug/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "cmake-build-debug/_deps/sfml-src/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vrbno3"
+      binary: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vrbno3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vrbno3'
+        
+        Run Build Command(s): C:/Users/pilan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_ce0f0
+        [1/2] C:\\Users\\pilan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe    -o CMakeFiles/cmTC_ce0f0.dir/CheckIncludeFile.c.obj -c C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vrbno3/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\pilan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_ce0f0.dir/CheckIncludeFile.c.obj -o cmTC_ce0f0.exe -Wl,--out-implib,libcmTC_ce0f0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/pilan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/pilan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "cmake-build-debug/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "cmake-build-debug/_deps/sfml-src/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cpgpnr"
+      binary: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cpgpnr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cpgpnr'
+        
+        Run Build Command(s): C:/Users/pilan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_6752d
+        [1/2] C:\\Users\\pilan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe    -o CMakeFiles/cmTC_6752d.dir/CheckIncludeFile.c.obj -c C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cpgpnr/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\pilan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_6752d.dir/CheckIncludeFile.c.obj -o cmTC_6752d.exe -Wl,--out-implib,libcmTC_6752d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/pilan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Users/pilan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "cmake-build-debug/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "cmake-build-debug/_deps/sfml-src/CMakeLists.txt:34 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-srdgxk"
+      binary: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-srdgxk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-srdgxk'
+        
+        Run Build Command(s): C:/Users/pilan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_20343
+        [1/2] C:\\Users\\pilan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe    -o CMakeFiles/cmTC_20343.dir/SIZEOF_VOID_PTR.c.obj -c C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-srdgxk/SIZEOF_VOID_PTR.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\pilan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_20343.dir/SIZEOF_VOID_PTR.c.obj -o cmTC_20343.exe -Wl,--out-implib,libcmTC_20343.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/pilan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug/_deps/sfml-src/src/SFML/Window/CMakeLists.txt:332 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7m5uac"
+      binary: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7m5uac"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7m5uac'
+        
+        Run Build Command(s): C:/Users/pilan/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_71cff
+        [1/2] C:\\Users\\pilan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe    -o CMakeFiles/cmTC_71cff.dir/CheckIncludeFile.c.obj -c C:/Users/pilan/CLionProjects/EthanEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7m5uac/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\pilan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_71cff.dir/CheckIncludeFile.c.obj -o cmTC_71cff.exe -Wl,--out-implib,libcmTC_71cff.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
