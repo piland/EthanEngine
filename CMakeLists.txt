@@ -3,4 +3,4 @@ project(EthanEngine)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(EthanEngine main.cpp)
+add_executable(EthanEngine src/main.cpp)
